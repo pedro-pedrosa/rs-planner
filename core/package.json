@@ -1,0 +1,17 @@
+{
+  "name": "@rs-planner/core",
+  "version": "1.0.0",
+  "description": "Shared domain logic and utilities",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  }
+}

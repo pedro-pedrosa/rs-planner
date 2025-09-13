@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "name": "Logs",
+      "id": 1511,
+      "level": 1,
+      "xp": 25
+    },
+    {
+      "name": "Oak logs",
+      "id": 1521,
+      "level": 15,
+      "xp": 37.5
+    },
+    {
+      "name": "Willow logs",
+      "id": 1519,
+      "level": 30,
+      "xp": 67.5
+    },
+    {
+      "name": "Maple logs",
+      "id": 1517,
+      "level": 45,
+      "xp": 100
+    },
+    {
+      "name": "Yew logs",
+      "id": 1515,
+      "level": 60,
+      "xp": 175
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "@rs-planner/scripts",
+  "version": "1.0.0",
+  "description": "Data synchronization scripts",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "dev": "tsc --watch",
+    "sync-data": "node dist/sync-data.js"
+  },
+  "dependencies": {
+    "@rs-planner/core": "1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  }
+}

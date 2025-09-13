@@ -1,0 +1,25 @@
+{
+  "name": "rs-planner",
+  "version": "1.0.0",
+  "description": "RuneScape planning tools monorepo",
+  "private": true,
+  "workspaces": [
+    "core",
+    "cli",
+    "scripts"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "clean": "npm run clean --workspaces",
+    "test": "npm run test --workspaces",
+    "dev": "npm run dev --workspaces"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}
