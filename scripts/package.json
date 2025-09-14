@@ -4,9 +4,9 @@
   "description": "Data synchronization scripts",
   "scripts": {
     "build": "tsc",
-    "clean": "rm -rf dist",
+    "clean": "rm -rf dist tsconfig.tsbuildinfo",
     "dev": "tsc --watch",
-    "sync-data": "node dist/sync-data.js"
+    "fetch-recipes": "node dist/fetch-recipes.js"
   },
   "dependencies": {
     "@rs-planner/core": "1.0.0"

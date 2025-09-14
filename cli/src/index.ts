@@ -1,13 +1,10 @@
 #!/usr/bin/env node
 
-import { greet } from '@rs-planner/core';
-
 function main() {
   console.log('RS Planner CLI');
   console.log('==============');
   
-  const message = greet('RuneScape Player');
-  console.log(message);
+  console.log('Welcome RuneScape Player');
   
   // Example of using data
   console.log('\nAvailable commands:');

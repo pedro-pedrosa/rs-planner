@@ -12,7 +12,9 @@
     "build": "npm run build --workspaces",
     "clean": "npm run clean --workspaces",
     "test": "npm run test --workspaces",
-    "dev": "npm run dev --workspaces"
+    "dev": "npm run dev --workspaces",
+
+    "fetch-recipes": "npm --workspace @rs-planner/scripts run fetch-recipes"
   },
   "devDependencies": {
     "typescript": "^5.0.0",
